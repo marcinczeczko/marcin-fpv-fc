@@ -1,0 +1,13 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rfbb,Vishay-Dale,CRCW040211K5FKED,1,0.01,3,Resistance: 11.5 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rt,Vishay-Dale,CRCW0402121KFKED,1,0.01,3,Resistance: 121 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rcomp,Yageo,RC0201FR-0715K4L,1,0.01,2.08,Resistance: 15.4 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Cout,MuRata,GRM32ER61C476KE15L,2,0.17,14.7,Cap: 47 µF  Total Derated Cap: 63 µF  VDC: 16 V  ESR: 3.04 mΩ  Package: 1210  
+L1,Bourns,SRN8040-8R2Y,1,0.33,100,L: 8.2 µH  DCR: 45 mΩ  IDC: 3.7 A  
+Ccomp2,AVX,06031U8R2BAT2A,1,0.06,4.68,Cap: 8.2 pF  Total Derated Cap: 8.2 pF  VDC: 100 V  ESR: 0 Ω  Package: 0603  
+Cboot,AVX,08053C104KAT2A,1,0.01,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 25 V  ESR: 280 mΩ  Package: 0805  
+Rfbt,Vishay-Dale,CRCW040260K4FKED,1,0.01,3,Resistance: 60.4 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cin,MuRata,GRM31CR71H475KA12L,1,0.1,10.92,Cap: 4.7 µF  Total Derated Cap: 2.4 µF  VDC: 50 V  ESR: 3 mΩ  Package: 1206  
+Ccomp,Samsung Electro-Mechanics,CL32C113JBHNNNE,1,0.42,14.7,Cap: 11 nF  Total Derated Cap: 11 nF  VDC: 50 V  ESR: 0 Ω  Package: 1210  
+U1,Texas Instruments,TPS54560BQDDARQ1,1,2.759,55.2,
+D1,Diodes Inc.,B560C-13-F,1,0.19,83.27,Type: Schottky  VRRM: 60 V  Io: 5 A  

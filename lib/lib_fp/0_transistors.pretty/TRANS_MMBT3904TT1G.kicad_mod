@@ -1,0 +1,229 @@
+(footprint "TRANS_MMBT3904TT1G"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.35 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "80a232f0-8f05-4669-8ebc-4da69077d5f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TRANS_MMBT3904TT1G"
+		(at 6.0452 2.1336 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3942c265-7de2-4ac7-ad7a-e0f2bf97a2e4")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2cdbcdc-820b-4284-b407-56a4517e7c51")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d7eee87-01d5-4eaa-8903-68bdbef83336")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.008 -0.8)
+		(end 0.4 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3e5880f-a22e-48d9-b697-eae8b436fa7f")
+	)
+	(fp_line
+		(start 0.4 -0.8)
+		(end 0.4 -0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60b1f3bb-b0f4-4392-8fc3-778cdfbfc9ce")
+	)
+	(fp_line
+		(start 0.4 0.5)
+		(end 0.4 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ce33f70-b2c2-409a-b81f-71f25c3b0810")
+	)
+	(fp_line
+		(start 0.4 0.8)
+		(end -0.008 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81bde8a5-36f8-45cc-8bf0-d5e29d5192ab")
+	)
+	(fp_circle
+		(center -1.5 -0.5)
+		(end -1.4 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7a0ba846-b06a-44dc-890b-9e779a3c07ae")
+	)
+	(fp_line
+		(start -1.1515 -1.05)
+		(end 1.1515 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e01d133-77eb-483e-aaa0-f5cb8eb8eae2")
+	)
+	(fp_line
+		(start -1.1515 1.05)
+		(end -1.1515 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67b18598-08b4-4e3d-81ef-02da50859a90")
+	)
+	(fp_line
+		(start 1.1515 -1.05)
+		(end 1.1515 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "910a5e7c-a98f-4d23-b970-bf532f2b4d94")
+	)
+	(fp_line
+		(start 1.1515 1.05)
+		(end -1.1515 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d4419cb-73a9-4b89-8b9e-e4f6996d16a1")
+	)
+	(fp_line
+		(start -0.4 -0.8)
+		(end 0.4 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e376e55f-5c48-4d37-abe5-57229ebc8a4a")
+	)
+	(fp_line
+		(start -0.4 0.8)
+		(end -0.4 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecc5074c-cb72-4e29-bf22-085ea8216d74")
+	)
+	(fp_line
+		(start 0.4 -0.8)
+		(end 0.4 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0dd4a754-8ef7-4993-a101-909e94a6bc51")
+	)
+	(fp_line
+		(start 0.4 0.8)
+		(end -0.4 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7da09781-e058-46a0-a3c5-499fd76d2952")
+	)
+	(fp_circle
+		(center -1.5 -0.5)
+		(end -1.4 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c82ef429-9677-4d9a-a252-281a3a36d5c4")
+	)
+	(pad "1" smd rect
+		(at -0.6475 -0.5)
+		(size 0.508 0.356)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a06eed95-de31-4d89-bdde-36d3992bb359")
+	)
+	(pad "2" smd rect
+		(at -0.6475 0.5)
+		(size 0.508 0.356)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "f8b0fed9-a781-4fe2-b1ec-739aec677e20")
+	)
+	(pad "3" smd rect
+		(at 0.6475 0)
+		(size 0.508 0.356)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b8a0ee99-ad14-43a2-a4ca-3b4c178c374f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/0_transistors/MMBT3904TT1G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

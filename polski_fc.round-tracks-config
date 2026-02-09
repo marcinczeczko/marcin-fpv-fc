@@ -1,0 +1,8 @@
+Default	True	0.5	3
+3V3	True	0.5	3
+3V3-IMU	True	0.5	3
+4V5	True	0.5	3
+5V	True	0.5	3
+9V	True	0.5	3
+GND	True	0.5	3
+False	True	False

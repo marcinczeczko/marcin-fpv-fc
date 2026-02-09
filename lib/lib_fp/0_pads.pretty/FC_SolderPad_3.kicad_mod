@@ -1,0 +1,92 @@
+(footprint "FC_SolderPad_3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+	(tags "solder Pin_ press fit")
+	(property "Reference" "REF**"
+		(at -0.25 -1.2 0)
+		(layer "F.SilkS")
+		(uuid "73738b27-fadb-457c-9d2f-dd2d7e19fee8")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Solder_Pad_SMD"
+		(at -0.25 -5.15 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8269bcc-416c-468c-935f-249b272fa2f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a45493ec-c339-4e1e-8d2e-a788f82fdc2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ff90f0c-bb21-4f38-a212-26f04bfda230")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -0.85 -0.95)
+		(end 0.85 0.95)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e3a3f2b3-f6e1-4df5-9bd5-9020a9ea1a51")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4a9de7de-39c6-48a3-a57e-888aedadd830")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1 1.2)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.1)
+		(uuid "3c98ed59-f764-4ba2-9cf6-334888b66ee7")
+	)
+	(embedded_fonts no)
+)

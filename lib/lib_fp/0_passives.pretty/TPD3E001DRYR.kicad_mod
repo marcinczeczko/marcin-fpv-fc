@@ -1,0 +1,258 @@
+(footprint "TPD3E001DRYR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TPD3E001DRYR-1")
+	(tags "Low-Capacitance 3-Channel ESD-Protection for High-Speed Data Interfaces")
+	(property "Reference" "REF**"
+		(at 0.5 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "f5d8d574-0663-4b7a-ac64-ae4091098ba3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPD3E001DRYR"
+		(at -0.25 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d5d0a1df-e60b-4d67-b8e5-0377a697704e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd3e001.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "914d2ccb-1994-4084-8176-d316dee5ca51")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Low-Capacitance 3-Channel ESD-Protection for High-Speed Data Interfaces"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c565fb3-c616-43fb-8160-ccdd61b8299f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.55)
+		(end -1 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11472636-a496-4fc6-abe5-524a353edad8")
+	)
+	(fp_line
+		(start -0.9 -0.55)
+		(end -0.9 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61c9240e-6046-4f09-bb4a-a0157f71d3b4")
+	)
+	(fp_line
+		(start -0.9 -0.55)
+		(end -0.9 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65228e63-7bdd-4df8-a24e-a796f3d12f3f")
+	)
+	(fp_arc
+		(start -1 -0.55)
+		(mid -0.95 -0.6)
+		(end -0.9 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ba7f51d-dabc-49a5-b2ed-ee10f5bab449")
+	)
+	(fp_arc
+		(start -1 -0.55)
+		(mid -0.95 -0.6)
+		(end -0.9 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1745678-133c-4c1c-96f7-edaa3acca04c")
+	)
+	(fp_arc
+		(start -0.9 -0.55)
+		(mid -0.95 -0.5)
+		(end -1 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80484c93-3c51-42d4-bdf7-3f7858dd3bf8")
+	)
+	(fp_line
+		(start -1 -1.2)
+		(end 1 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3c4b948-3958-4571-ab7c-66968fe9bd73")
+	)
+	(fp_line
+		(start -1 1.2)
+		(end -1 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f50e2cf-5493-4696-b422-8959a8063b7b")
+	)
+	(fp_line
+		(start 1 -1.2)
+		(end 1 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "473c18ae-3b84-4fe0-b181-1356d913dc19")
+	)
+	(fp_line
+		(start 1 1.2)
+		(end -1 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f6aae767-f333-45d2-a358-db760c96ad12")
+	)
+	(fp_line
+		(start -0.5 -0.725)
+		(end -0.5 0.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b064a75-0496-4b59-95d4-11617b31bae6")
+	)
+	(fp_line
+		(start -0.5 0.725)
+		(end 0.5 0.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1b78b4d-c324-4991-9b6e-6fe7c474ee14")
+	)
+	(fp_line
+		(start 0.5 -0.725)
+		(end -0.5 -0.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5be8888f-8f4a-451f-9927-e8295219af5d")
+	)
+	(fp_line
+		(start 0.5 0.725)
+		(end 0.5 -0.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9229750-c87f-4441-80e2-7b6758f166c7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.25 0 0)
+		(layer "F.Fab")
+		(uuid "f7335f3f-334c-4581-b534-cac815d61432")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.275 -0.5 90)
+		(size 0.2 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7eb5581b-f81d-48a4-b27e-bdc6d4928ebc")
+	)
+	(pad "2" smd rect
+		(at -0.3 0 90)
+		(size 0.2 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b75537dc-90c7-4290-b50e-94e02f102eb4")
+	)
+	(pad "3" smd rect
+		(at -0.3 0.5 90)
+		(size 0.2 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9109e7a4-9926-478f-8792-73502250f21a")
+	)
+	(pad "4" smd rect
+		(at 0.3 0.5 90)
+		(size 0.2 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c804ed69-7bac-40cd-afbc-b08754d22d20")
+	)
+	(pad "5" smd rect
+		(at 0.3 0 90)
+		(size 0.2 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7cbec5b3-c3df-402c-b4f2-acef23fd2be7")
+	)
+	(pad "6" smd rect
+		(at 0.3 -0.5 90)
+		(size 0.2 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9a0f161e-e19e-4cb0-8897-a0caf4c7a751")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/0_passives/TPD3E001DRYR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

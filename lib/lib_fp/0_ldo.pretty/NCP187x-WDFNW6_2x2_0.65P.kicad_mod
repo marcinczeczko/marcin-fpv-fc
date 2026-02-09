@@ -1,0 +1,222 @@
+(footprint "NCP187x-WDFNW6_2x2_0.65P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WDFN6 2x2, 0.65P CASE 511BR ISSUE C")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0.66 -2.27 0)
+		(layer "F.SilkS")
+		(uuid "285088e3-2acd-4a44-bcd7-1085e2ba649a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NCP187x-WDFNW6_2x2_0.65P"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1da63b4b-398a-49cb-bf14-5b75f001d769")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be549e6f-07ca-4fd0-bd26-5d9ae387cc7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "842fdbfc-c282-47cf-a41b-ee743eeb18d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.45 -1.15)
+		(end -1.35 -1.15)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "291a86a0-dc99-4bb0-8ce2-1731eb3fd324")
+	)
+	(fp_line
+		(start -1.625 -1.3)
+		(end 1.625 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8618ceed-6b70-4d28-bd94-91fecebdfee2")
+	)
+	(fp_line
+		(start -1.625 1.3)
+		(end -1.625 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b077389b-dc16-4c6f-a9cb-cc3db94c142c")
+	)
+	(fp_line
+		(start 1.625 -1.3)
+		(end 1.625 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "636e8804-4d4d-416d-8af2-9591cb7c26a5")
+	)
+	(fp_line
+		(start 1.625 1.3)
+		(end -1.625 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3aeedd6b-ada2-404a-82d0-06a7e0b2a29a")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8379cce1-6435-48c7-9a47-2abf438cafac")
+	)
+	(fp_line
+		(start -1 -0.5)
+		(end -0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0de94448-9878-4e7e-91c1-aae7f7adee48")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3d6065a-2f5c-43d8-829f-6637d1c4fdc5")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e98b85e-0966-491c-980e-8413c5627e5a")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c71156d-05c0-4d94-8f36-d5faa61f307a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d433795b-2877-4a95-8cd5-c1e4dd786552")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.925 -0.65 90)
+		(size 0.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "382926cd-c994-4331-bab4-0afbda6d0a14")
+	)
+	(pad "2" smd rect
+		(at -0.925 0 90)
+		(size 0.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "29f322dd-cb71-4104-94e6-38fb5e911050")
+	)
+	(pad "3" smd rect
+		(at -0.925 0.65 90)
+		(size 0.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0d5c3d84-1ab0-4518-964a-03daa1f4f1b8")
+	)
+	(pad "4" smd rect
+		(at 0.925 0.65 90)
+		(size 0.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4eb51e50-b19b-4e96-86fa-cbc634459545")
+	)
+	(pad "5" smd rect
+		(at 0.925 0 90)
+		(size 0.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "91b32379-7734-40ff-a995-c6cf37568eee")
+	)
+	(pad "6" smd rect
+		(at 0.925 -0.65 90)
+		(size 0.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4ae938dd-17d4-4051-9cfd-c1cf4405555f")
+	)
+	(pad "7" smd rect
+		(at 0 0)
+		(size 1.12 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0711f3f2-501a-4753-9cc7-8a32eb4e5599")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/0_ldo/NCP187AMT120TAG.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

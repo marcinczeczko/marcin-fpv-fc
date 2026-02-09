@@ -1,0 +1,241 @@
+(footprint "Crystal_CSTNE8M00G55A000R0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CSTNE8M00G55A000R0-1")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "REF**"
+		(at 0.52 -1.99 0)
+		(layer "F.SilkS")
+		(uuid "34aa8c15-48a7-4c21-baf2-a3921ebaccd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_CSTNE8M00G55A000R0"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ba39fd01-bf84-4896-9b46-eaad1c299464")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicResonatorCrystalUnit/SPEC_CSTNE8M00G55A000R0_PDF_CERAMICRESONATORCRYSTALUNIT?lastModifiedDatetime=20250707192132"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73a85f7e-d793-4d9d-bbed-61505ff62eea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Murata 3-Pin Piezoelectric Ceramic Resonator"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8974eec1-ab72-4837-a7b5-979f00e45ec6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.06 -0.05)
+		(end -2.06 -0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe6b2a4e-bd5b-4a86-8b40-7fb8d5b9e709")
+	)
+	(fp_line
+		(start -2.06 0.05)
+		(end -2.06 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "968190bd-bc01-485c-b7f4-b896e9053907")
+	)
+	(fp_line
+		(start -2.06 0.05)
+		(end -2.06 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccc7325b-e9dc-4172-8d7e-947e2c2777b0")
+	)
+	(fp_arc
+		(start -2.06 -0.05)
+		(mid -2.01 0)
+		(end -2.06 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03bcd746-b989-4bd6-936c-d645adddf36a")
+	)
+	(fp_arc
+		(start -2.06 -0.05)
+		(mid -2.01 0)
+		(end -2.06 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c79b5eb-1746-4b38-bc29-1bf3efe71311")
+	)
+	(fp_arc
+		(start -2.06 0.05)
+		(mid -2.11 0)
+		(end -2.06 -0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65281783-e8ae-480d-9e5a-5cddeb15a7a2")
+	)
+	(fp_line
+		(start -2.6 -1.95)
+		(end 2.6 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bdef90fd-285f-4298-925a-594e3b67befd")
+	)
+	(fp_line
+		(start -2.6 1.95)
+		(end -2.6 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d15a98f5-e1c0-407e-9c08-9a392685626e")
+	)
+	(fp_line
+		(start 2.6 -1.95)
+		(end 2.6 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b89adf72-9f13-410a-9c73-b262c18c353e")
+	)
+	(fp_line
+		(start 2.6 1.95)
+		(end -2.6 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37552488-b07b-46b8-9af8-9544bb44239f")
+	)
+	(fp_line
+		(start -1.6 -0.65)
+		(end -1.6 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd4ca802-cc6c-46e7-8ae0-b7bdcfdd5e38")
+	)
+	(fp_line
+		(start -1.6 0.65)
+		(end 1.6 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "879ebf22-7dda-4c37-812f-40a4a9f906a8")
+	)
+	(fp_line
+		(start 1.6 -0.65)
+		(end -1.6 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ae74860-3ee3-41aa-9146-c31da06b0ae1")
+	)
+	(fp_line
+		(start 1.6 0.65)
+		(end 1.6 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66478747-5a2f-4a92-9a4b-777e6bd4651a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b68072f4-5ca3-42e4-9da3-724c1e631841")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.2 0)
+		(size 0.4 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ea92440d-ded0-4536-b6fb-356c1402fec6")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.4 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d2a18331-b24c-47d8-b4af-47529b0914b3")
+	)
+	(pad "3" smd rect
+		(at 1.2 0)
+		(size 0.4 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9d70e602-5917-43f9-8a27-a5f9a533c551")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/0_passives/CrystalMurata-CSTNE8M00G55A000R0.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

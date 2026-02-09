@@ -1,0 +1,181 @@
+(footprint "PGB1010402KR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PGB1 0402")
+	(tags "Varistor")
+	(property "Reference" "REF**"
+		(at 0.68 -1.68 0)
+		(layer "F.SilkS")
+		(uuid "e8322bfe-85a8-4c5e-85d7-08dc742f5f74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PGB1010402KR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "253fc88a-efa2-463b-ad85-ae8c53b98d65")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24487aef-edd2-4529-8e9d-8bc09fb83a38")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1f0c512-c117-4365-8471-5b6c71c38f3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.155)
+		(end 0 0.155)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5cca79c7-2f87-4cc6-bfee-a91d1cd735a6")
+	)
+	(fp_line
+		(start -1.175 -0.6)
+		(end 1.175 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2af5072-448c-4d4b-9f28-0e28ae7ae9b0")
+	)
+	(fp_line
+		(start -1.175 0.6)
+		(end -1.175 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f98f3fe-33d6-4fe9-9a04-3a8d21dc7592")
+	)
+	(fp_line
+		(start 1.175 -0.6)
+		(end 1.175 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a58dc9c-fdb7-448d-986b-990b3a4f14e7")
+	)
+	(fp_line
+		(start 1.175 0.6)
+		(end -1.175 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b5f9d8a-d2b9-4e7a-ba8e-993678ec2150")
+	)
+	(fp_line
+		(start -0.495 -0.255)
+		(end 0.495 -0.255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ee8ec8d-f55b-4ddf-a71f-599b842d71c5")
+	)
+	(fp_line
+		(start -0.495 0.255)
+		(end -0.495 -0.255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59572ea0-119f-4164-b56e-4c399cb1fe44")
+	)
+	(fp_line
+		(start 0.495 -0.255)
+		(end 0.495 0.255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "470c321f-003e-41bc-9a4c-74579be7577a")
+	)
+	(fp_line
+		(start 0.495 0.255)
+		(end -0.495 0.255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7aa314cb-e1cd-4d8c-89fa-deeb6a3d8c60")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ad7d3e79-baa1-479c-a5ad-9d662ad66305")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.48 0 90)
+		(size 0.56 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ff28346-8bda-4147-a320-7f8dbebb0805")
+	)
+	(pad "2" smd rect
+		(at 0.48 0 90)
+		(size 0.56 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "91e26d49-e3c9-43e4-be7d-9963c7a7585d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/0_passives/PGB1010402KR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,13 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rfbb,Yageo,RC0201FR-0712K1L,1,0.01,2.08,Resistance: 12.1 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Rt,Vishay-Dale,CRCW0402121KFKED,1,0.01,3,Resistance: 121 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rcomp,Yageo,RC0201FR-0715K4L,1,0.01,2.08,Resistance: 15.4 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Cout,Panasonic,16SVPG47M,1,0.52,53.29,Cap: 47 µF  Total Derated Cap: 47 µF  VDC: 16 V  ESR: 25 mΩ  Package: 5x4.4  
+L1,Wurth Elektronik,7447720220,1,0.54721,96.04,L: 22 µH  DCR: 46 mΩ  IDC: 3 A  
+Ccomp2,Johanson Technology,250R05L130JV4T,1,0.02,2.08,Cap: 13 pF  Total Derated Cap: 13 pF  VDC: 25 V  ESR: 0 Ω  Package: 0201  
+Cboot,AVX,08053C104KAT2A,1,0.01,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 25 V  ESR: 280 mΩ  Package: 0805  
+Rfbt,Vishay-Dale,CRCW0402124KFKED,1,0.01,3,Resistance: 124 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cin,MuRata,GRM31CR71H475KA12L,1,0.1,10.92,Cap: 4.7 µF  Total Derated Cap: 2.4 µF  VDC: 50 V  ESR: 3 mΩ  Package: 1206  
+Ccomp,Kemet,C1812C183J5GACTU,1,0.71,23.1,Cap: 18 nF  Total Derated Cap: 18 nF  VDC: 50 V  ESR: 0 Ω  Package: 1812  
+U1,Texas Instruments,TPS54560BQDDARQ1,1,2.759,55.2,
+D1,Diodes Inc.,B560C-13-F,1,0.19,83.27,Type: Schottky  VRRM: 60 V  Io: 5 A  
