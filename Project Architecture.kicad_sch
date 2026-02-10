@@ -2124,34 +2124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 191.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 191.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 191.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 191.77 152.4 0)
 			(effects
 				(font
@@ -2263,34 +2236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 229.87 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 229.87 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 229.87 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 229.87 144.78 0)
 			(effects
 				(font
@@ -2404,34 +2350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 214.63 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 214.63 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 214.63 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 214.63 144.78 0)
 			(effects
 				(font
@@ -2546,34 +2465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 262.89 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 262.89 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 262.89 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 262.89 144.78 0)
 			(effects
 				(font
@@ -2684,34 +2576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 242.57 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 242.57 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 242.57 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 242.57 158.75 0)
 			(effects
 				(font
@@ -2826,34 +2691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 262.89 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 262.89 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 262.89 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 262.89 138.43 0)
 			(effects
 				(font
@@ -2964,34 +2802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 214.63 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 214.63 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 214.63 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 214.63 130.81 0)
 			(effects
 				(font
@@ -3105,34 +2916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 242.57 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 242.57 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 242.57 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 242.57 167.64 0)
 			(effects
 				(font
@@ -3247,34 +3031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 229.87 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 229.87 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 229.87 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 229.87 152.4 0)
 			(effects
 				(font
@@ -3389,34 +3146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 262.89 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 262.89 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 262.89 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 262.89 158.75 0)
 			(effects
 				(font
@@ -3527,34 +3257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 262.89 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 262.89 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 262.89 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 262.89 167.64 0)
 			(effects
 				(font
@@ -3665,34 +3368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 191.77 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 191.77 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 191.77 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 191.77 130.81 0)
 			(effects
 				(font
@@ -3804,34 +3480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 262.89 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 262.89 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 262.89 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 262.89 130.81 0)
 			(effects
 				(font

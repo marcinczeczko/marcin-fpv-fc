@@ -1902,7 +1902,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_passives:Crystal_4Pin"
+		(symbol "0_passives:Crystal_2Pin"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1911,34 +1914,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at -2.54 6.604 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Crystal_4Pin"
-				(at -4.064 4.826 0)
+			(property "Value" "Crystal_2Pin"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "0_passives:Crystal_SMD_HD 7E027000F01"
-				(at 6.858 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C781725.pdf"
-				(at 5.588 -8.128 0)
+			(property "Footprint" ""
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1946,8 +1938,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 4, pin 2 unconnected"
-				(at 14.986 -5.588 0)
+			(property "Datasheet" "~"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1955,7 +1947,25 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
+			(property "Description" "Crystal"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "XTAL-"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun quartz ceramic resonator oscillator"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1964,58 +1974,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_4Pin_0_1"
+			(symbol "Crystal_2Pin_0_1"
 				(polyline
 					(pts
-						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+						(xy -1.27 -0.762) (xy -1.27 0.762)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.27) (xy -2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
+						(width 0.381)
 						(type default)
 					)
 					(fill
@@ -2023,20 +1988,8 @@
 					)
 				)
 				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
 					(stroke
 						(width 0)
 						(type default)
@@ -2047,22 +2000,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.032 0) (xy 2.54 0)
+						(xy 1.27 -0.762) (xy 1.27 0.762)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.27) (xy 2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
+						(width 0.381)
 						(type default)
 					)
 					(fill
@@ -2070,9 +2011,9 @@
 					)
 				)
 			)
-			(symbol "Crystal_4Pin_1_1"
+			(symbol "Crystal_2Pin_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at -2.54 0 0)
 					(length 1.27)
 					(name "1"
 						(effects
@@ -2090,9 +2031,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 2.54 0 180)
 					(length 1.27)
-					(hide yes)
 					(name "2"
 						(effects
 							(font
@@ -2101,42 +2041,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4811,6 +4715,26 @@
 		)
 		(uuid "93ee1f5b-0a29-4ccb-9af8-f9ce1f90e0a7")
 	)
+	(text_box "Crystal: \n- Abracon ABM3-8.000MHZ-B4Y-TNominal Frequency 8.000 MHz\n- Rated Load Capacitance C_L 18 pF\n- Max Equivalent Series Resistance (ESR): 140 Ohm\n\nPCB Stackup & Geometry Assumptions:\nBased on the JLCPCB 8-layer stackup (JLC08161H-1164) and the designed layout:\n- Trace Width: 0.15 mm\n- Total Trace Length l: 8.5 mm (combined OSC_IN and OSC_OUT)\n- Primary Dielectric: PrePreg (epsilon_r ~ 4.2)\n- Ground Plane Strategy: Void/Cutout on L2;  L3 used as the reference ground plane. \n- Distance to Reference Plane h: 0.1164 { mm (D1)} + 0.0152 { mm (L2)} + 0.3 { mm (D2)} = 0.4316 mm\n\nTrace Capacitance:\nUsing the IPC-2141A empirical approximation for microstrip self-capacitance:\n- C_trace ~ (0.0264 * epsilon_r + 0.0129)/ln(5.98 * h/0.8 * w) [pF/mm]\n- epsilon_r = 4.2 (dielectric contant)\n- h = 0.4316mm (height to L3)\n- w = 0.15mm (trace width)\n\nC_trace ~ ((0.0264 * 4.2) + 0.0129)/ln(5.98 * 0.4316/0.8*0.15) ~ 0.0403 pF/mm\n\nTrace lenght total (from osc_in and out down to crystal pins) ~ 7.5mm -> 0.30pF\n\nTotal Stray Capacitance:\n- C_s = C_trace + C_MCU_pin + C_crystal_pad + C_parasitic_margin\n- C_MCU_Pin - 4.5pF (Internal STM32G4 input/output capacitance) - from datasheet\n- C_crystal_pad: 0.2pF (5031 SMD pad capacitance to L3 ground) - parallel-plate capacitance of the large SMD pads of the 5032 package agains L3 (0.4316mm)\n- C_parasitic_margin: 0.96pF (Safety margin for vias and manufacturing tolerances)\n\nTotal C_s ~ 6.0pF\n\nExternal Load Capacitor\n- To satisfy the crystal's required CL, we solve for CL1 = CL2 -> C_ext = 2x(CL - C_s)\n- C_ext = 2 x (18pF - 6.0pF) = 24pF\n\nStandard E12 value: 22pF, COG/NPO\nEnsuer copper keep-out (void) on Layer 2 direcetly beneath the crystal and oscillator traces to maintain the calculated height h.\n\n"
+		(exclude_from_sim no)
+		(at 20.32 16.51 0)
+		(size 43.18 34.29)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left top)
+		)
+		(uuid "5e8f6304-8994-490f-8984-b34e3b0e62ab")
+	)
 	(text_box "TODO: Second Low Pass Filter and current limiter for pin protection\n\nSampling Time: When Betaflight initializes the ADC on an STM32F405, \nit hardcodes the sampling time for the VBAT (battery voltage) channel to 480 cycles (ADC_SampleTime_480Cycles).\nThis is the slowest and most stable sampling time available on the STM32. \nIt's done for one specific reason: to give the ADC's internal capacitor plenty of time to charge, \nwhich is required when reading from a high-impedance source (like your divider).\nImpedance Required: This 480-cycle sampling time is what allows the ADC to work with a source impedance up to the datasheet's maximum of 50kΩ."
 		(exclude_from_sim no)
 		(at -68.58 97.79 0)
@@ -4897,26 +4821,6 @@
 			)
 		)
 		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
-	)
-	(text_box "PUT C2 very close to ADC PIN"
-		(exclude_from_sim no)
-		(at 233.68 120.65 0)
-		(size 20.32 10.16)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right top)
-		)
-		(uuid "c7cbd6d6-271a-422e-bfb6-3c31c82ae6fb")
 	)
 	(text_box "VBAT_ADC\n"
 		(exclude_from_sim no)
@@ -5105,12 +5009,6 @@
 		(uuid "8b05acb9-176b-4261-911d-bdee2d635dc9")
 	)
 	(junction
-		(at 87.63 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c8aa154-0f5a-42ea-b2f7-ca24d7862df1")
-	)
-	(junction
 		(at 35.56 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5121,12 +5019,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb432d1e-e65d-4dfc-b186-82297ddebb50")
-	)
-	(junction
-		(at 87.63 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc36cba9-9579-4e9b-9f5e-297e2cc935a3")
 	)
 	(junction
 		(at 218.44 62.23)
@@ -5321,16 +5213,6 @@
 			(type default)
 		)
 		(uuid "0c8e7a37-6c81-4f79-bd89-0b9a5995628b")
-	)
-	(wire
-		(pts
-			(xy 87.63 60.96) (xy 87.63 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e04d173-7593-4d37-a7ec-34a1c3c1ba68")
 	)
 	(wire
 		(pts
@@ -5984,13 +5866,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 43.18) (xy 87.63 52.07)
+			(xy 76.2 43.18) (xy 76.2 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fb19b66-cd06-40c1-b48d-a4b18840f9ce")
+		(uuid "8313ce55-dc23-43ea-92a7-76b200769a1c")
 	)
 	(wire
 		(pts
@@ -6071,16 +5953,6 @@
 			(type default)
 		)
 		(uuid "99ce13c2-f247-4692-850a-b3b06e7dbf79")
-	)
-	(wire
-		(pts
-			(xy 81.28 52.07) (xy 87.63 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a04c264-7bc6-48dd-b72b-d139fe51695a")
 	)
 	(wire
 		(pts
@@ -6244,16 +6116,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 76.2 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3252e86-d568-46b9-a98d-368a0b6fad5a")
-	)
-	(wire
-		(pts
 			(xy 59.69 97.79) (xy 59.69 96.52)
 		)
 		(stroke
@@ -6414,7 +6276,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 60.96) (xy 76.2 55.88)
+			(xy 76.2 54.61) (xy 76.2 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7441,34 +7303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 77.47 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 77.47 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 77.47 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0022"
 			(at 77.47 184.15 0)
 			(effects
 				(font
@@ -7615,34 +7450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 125.73 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 125.73 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 125.73 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0143"
 			(at 125.73 185.42 0)
 			(effects
 				(font
@@ -7710,7 +7518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588918717191229440"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
 			(at 231.14 125.73 0)
 			(effects
 				(font
@@ -7781,34 +7589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 231.14 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 231.14 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 231.14 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 231.14 125.73 0)
 			(effects
 				(font
@@ -7924,34 +7705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 55.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 55.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 55.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 55.88 74.93 0)
 			(effects
 				(font
@@ -8215,34 +7969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 91.44 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 91.44 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 91.44 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "6.1560"
 			(at 91.44 151.13 0)
 			(effects
 				(font
@@ -8510,7 +8237,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "18p"
+		(property "Value" "24p"
 			(at 77.216 62.738 90)
 			(effects
 				(font
@@ -8528,7 +8255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM0335C1H180FA01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813140539"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1864480.pdf"
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -8554,7 +8281,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C384967"
+		(property "JLCPCB #" "C1864480"
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -8572,7 +8299,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM0335C1H180FA01D"
+		(property "MANUFACTURER #" "GCM1555C1H240FA16D"
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -8606,34 +8333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 81.28 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 81.28 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 81.28 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0068"
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -8702,7 +8402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71C104KA88-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144737"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 68.58 160.02 0)
 			(effects
 				(font
@@ -8720,7 +8420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 72.644 159.004 0)
 			(effects
 				(font
@@ -8728,7 +8428,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C71629"
+		(property "JLCPCB #" "C77020"
 			(at 68.58 160.02 0)
 			(effects
 				(font
@@ -8746,7 +8446,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71C104KA88D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 68.58 160.02 0)
 			(effects
 				(font
@@ -8780,34 +8480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 68.58 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 68.58 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 68.58 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0016"
 			(at 68.58 160.02 0)
 			(effects
 				(font
@@ -8923,34 +8596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 57.15 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 57.15 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 57.15 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 57.15 97.79 0)
 			(effects
 				(font
@@ -9085,34 +8731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 218.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 218.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 218.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 218.44 53.34 0)
 			(effects
 				(font
@@ -9245,34 +8864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 111.76 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 111.76 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 111.76 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "6.1560"
 			(at 111.76 53.34 0)
 			(effects
 				(font
@@ -9565,7 +9157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71C104KA88-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144737"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 35.56 160.02 0)
 			(effects
 				(font
@@ -9583,7 +9175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 39.37 159.004 0)
 			(effects
 				(font
@@ -9591,7 +9183,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C71629"
+		(property "JLCPCB #" "C77020"
 			(at 35.56 160.02 0)
 			(effects
 				(font
@@ -9609,7 +9201,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71C104KA88D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 35.56 160.02 0)
 			(effects
 				(font
@@ -9643,34 +9235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 35.56 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 35.56 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 35.56 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0016"
 			(at 35.56 160.02 0)
 			(effects
 				(font
@@ -9737,7 +9302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588918717191229440"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
 			(at 193.04 52.07 0)
 			(effects
 				(font
@@ -9808,34 +9373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 193.04 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 193.04 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 193.04 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 193.04 52.07 0)
 			(effects
 				(font
@@ -9969,7 +9507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588918717191229440"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
 			(at 59.69 80.01 0)
 			(effects
 				(font
@@ -10040,34 +9578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 59.69 80.01 0)
 			(effects
 				(font
@@ -10136,7 +9647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71C104KA88-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144737"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 57.15 160.02 0)
 			(effects
 				(font
@@ -10154,7 +9665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 60.96 159.004 0)
 			(effects
 				(font
@@ -10162,7 +9673,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C71629"
+		(property "JLCPCB #" "C77020"
 			(at 57.15 160.02 0)
 			(effects
 				(font
@@ -10180,7 +9691,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71C104KA88D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 57.15 160.02 0)
 			(effects
 				(font
@@ -10214,34 +9725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 57.15 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 57.15 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 57.15 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0016"
 			(at 57.15 160.02 0)
 			(effects
 				(font
@@ -10379,34 +9863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 218.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 218.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 218.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 218.44 82.55 0)
 			(effects
 				(font
@@ -10676,7 +10133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71C104KA88-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144737"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 59.69 92.71 0)
 			(effects
 				(font
@@ -10694,7 +10151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 55.372 91.186 0)
 			(effects
 				(font
@@ -10702,7 +10159,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C71629"
+		(property "JLCPCB #" "C77020"
 			(at 59.69 92.71 0)
 			(effects
 				(font
@@ -10720,7 +10177,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71C104KA88D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 59.69 92.71 0)
 			(effects
 				(font
@@ -10754,34 +10211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 59.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 59.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 59.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0016"
 			(at 59.69 92.71 0)
 			(effects
 				(font
@@ -10895,34 +10325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 194.31 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 194.31 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 194.31 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 194.31 91.44 0)
 			(effects
 				(font
@@ -11189,7 +10592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71C104KA88-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144737"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 114.3 185.42 0)
 			(effects
 				(font
@@ -11207,7 +10610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 118.364 184.404 0)
 			(effects
 				(font
@@ -11215,7 +10618,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C71629"
+		(property "JLCPCB #" "C77020"
 			(at 114.3 185.42 0)
 			(effects
 				(font
@@ -11233,7 +10636,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71C104KA88D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 114.3 185.42 0)
 			(effects
 				(font
@@ -11267,34 +10670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 114.3 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 114.3 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 114.3 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0016"
 			(at 114.3 185.42 0)
 			(effects
 				(font
@@ -11408,34 +10784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 194.31 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 194.31 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 194.31 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" ""
 			(at 194.31 96.52 0)
 			(effects
 				(font
@@ -11546,15 +10895,6 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" "2mA"
-			(at 186.69 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Lite-On"
 			(at 186.69 31.75 90)
 			(effects
@@ -11574,24 +10914,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 186.69 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 186.69 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0410"
 			(at 186.69 31.75 90)
 			(effects
 				(font
@@ -11806,34 +11128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 64.77 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 64.77 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 64.77 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0060"
 			(at 64.77 184.15 0)
 			(effects
 				(font
@@ -11902,7 +11197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71C104KA88-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144737"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 195.58 153.67 0)
 			(effects
 				(font
@@ -11920,7 +11215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 199.644 152.654 0)
 			(effects
 				(font
@@ -11928,7 +11223,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C71629"
+		(property "JLCPCB #" "C77020"
 			(at 195.58 153.67 0)
 			(effects
 				(font
@@ -11946,7 +11241,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71C104KA88D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 195.58 153.67 0)
 			(effects
 				(font
@@ -11980,34 +11275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 195.58 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 195.58 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 195.58 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0016"
 			(at 195.58 153.67 0)
 			(effects
 				(font
@@ -12035,6 +11303,73 @@
 			(project "polski_fc"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8857adac-b1f0-4fe7-a096-8258267ffc66")
+		(property "Reference" "#PWR096"
+			(at 87.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe7ad85f-67cb-49c2-86e0-feb29621b056")
+		)
+		(instances
+			(project "polski_fc"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -12170,7 +11505,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C2858031"
+		(property "JLCPCB #" "C385032"
 			(at 24.13 160.02 0)
 			(effects
 				(font
@@ -12188,7 +11523,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R61E475ME15D"
+		(property "MANUFACTURER #" "GRM155R61E225KE11D"
 			(at 24.13 160.02 0)
 			(effects
 				(font
@@ -12213,16 +11548,7 @@
 				)
 			)
 		)
-		(property "Tollerance" "20%"
-			(at 24.13 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ifrwd" ""
+		(property "Tollerance" "10%"
 			(at 24.13 160.02 0)
 			(effects
 				(font
@@ -12232,24 +11558,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 24.13 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 24.13 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0363"
 			(at 24.13 160.02 0)
 			(effects
 				(font
@@ -12300,7 +11608,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "18p"
+		(property "Value" "24p"
 			(at 77.216 44.958 90)
 			(effects
 				(font
@@ -12318,7 +11626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM0335C1H180FA01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813140539"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1864480.pdf"
 			(at 81.28 43.18 0)
 			(effects
 				(font
@@ -12337,14 +11645,14 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 83.82 41.402 90)
+			(at 83.82 41.656 90)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 			)
 		)
-		(property "JLCPCB #" "C384967"
+		(property "JLCPCB #" "C1864480"
 			(at 81.28 43.18 0)
 			(effects
 				(font
@@ -12362,7 +11670,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM0335C1H180FA01D"
+		(property "MANUFACTURER #" "GCM1555C1H240FA16D"
 			(at 81.28 43.18 0)
 			(effects
 				(font
@@ -12372,7 +11680,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 84.074 44.704 90)
+			(at 84.074 45.72 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12380,7 +11688,7 @@
 			)
 		)
 		(property "Temp Coef" "C0G"
-			(at 83.82 43.18 90)
+			(at 83.82 44.196 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12396,34 +11704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 81.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 81.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 81.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0068"
 			(at 81.28 43.18 0)
 			(effects
 				(font
@@ -12458,7 +11739,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 62.23 0)
+		(at 87.63 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12467,7 +11748,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f545c09-43a7-4355-89cb-bc0cc75f281e")
 		(property "Reference" "#PWR07"
-			(at 87.63 68.58 0)
+			(at 87.63 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12476,7 +11757,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 67.31 0)
+			(at 87.63 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12485,7 +11766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 62.23 0)
+			(at 87.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12494,7 +11775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 62.23 0)
+			(at 87.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12503,7 +11784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 62.23 0)
+			(at 87.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12557,7 +11838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590282600867790848"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106232.pdf"
 			(at 175.26 31.75 0)
 			(effects
 				(font
@@ -12628,34 +11909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 175.26 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 175.26 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 175.26 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0007"
 			(at 175.26 31.75 0)
 			(effects
 				(font
@@ -12777,15 +12031,6 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 201.93 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
 			(at 201.93 46.99 90)
 			(effects
@@ -12796,24 +12041,6 @@
 			)
 		)
 		(property "MANUFACTURER" "Omron Electronics"
-			(at 201.93 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 201.93 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.1493"
 			(at 201.93 46.99 90)
 			(effects
 				(font
@@ -12882,7 +12109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71C104KA88-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144737"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 46.99 160.02 0)
 			(effects
 				(font
@@ -12900,7 +12127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 50.8 159.004 0)
 			(effects
 				(font
@@ -12908,7 +12135,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C71629"
+		(property "JLCPCB #" "C77020"
 			(at 46.99 160.02 0)
 			(effects
 				(font
@@ -12926,7 +12153,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71C104KA88D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 46.99 160.02 0)
 			(effects
 				(font
@@ -12960,34 +12187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 46.99 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 46.99 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 46.99 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0016"
 			(at 46.99 160.02 0)
 			(effects
 				(font
@@ -13154,7 +12354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_passives:Crystal_4Pin")
+		(lib_id "0_passives:Crystal_2Pin")
 		(at 76.2 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13163,7 +12363,7 @@
 		(dnp no)
 		(uuid "b8c4c533-1ef5-427f-b5a4-08ab73409fbc")
 		(property "Reference" "Y1"
-			(at 72.898 44.958 90)
+			(at 71.628 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13171,14 +12371,14 @@
 			)
 		)
 		(property "Value" "8MHz"
-			(at 72.898 47.498 90)
+			(at 71.628 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "0_passives:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "0_passives:ABM3"
 			(at 86.36 45.212 0)
 			(effects
 				(font
@@ -13187,7 +12387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589978611068399616"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/184/1/ABM3.pdf"
 			(at 84.328 46.482 0)
 			(effects
 				(font
@@ -13196,7 +12396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 4, pin 2 unconnected"
+		(property "Description" "3 pin crystal"
 			(at 81.788 37.084 0)
 			(effects
 				(font
@@ -13205,7 +12405,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C2595911"
+		(property "JLCPCB #" ""
 			(at 76.2 52.07 0)
 			(effects
 				(font
@@ -13214,7 +12414,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "ECS"
+		(property "MANUFACTURER" "Abracon"
 			(at 76.2 52.07 0)
 			(effects
 				(font
@@ -13223,24 +12423,15 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "ECS-80-12-33Q-GN-TR"
-			(at 71.374 55.118 0)
+		(property "MANUFACTURER #" "ABM3-8.000MHZ-B4Y-T"
+			(at 84.582 52.07 90)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 			)
 		)
-		(property "Package" "SMD3225-4P"
-			(at 76.2 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "1.2705"
+		(property "Package" ""
 			(at 76.2 52.07 0)
 			(effects
 				(font
@@ -13258,17 +12449,20 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser #" "815-ABM38000B4YT"
+			(at 76.2 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a9fafd1-25bb-4a17-8e8b-7a58022b7cfc")
 		)
 		(pin "2"
 			(uuid "5b28f4af-b58b-47ef-b503-7cd5aec6f43a")
-		)
-		(pin "4"
-			(uuid "1bf453f3-5cb1-4c96-9ab5-0e44bc4c6462")
-		)
-		(pin "3"
-			(uuid "e94cf4e3-9906-4aea-a79a-763b94e5df2f")
 		)
 		(instances
 			(project ""
@@ -13447,7 +12641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589947782741196800"
+		(property "Datasheet" ""
 			(at 231.14 111.76 0)
 			(effects
 				(font
@@ -13465,7 +12659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tollerance" "1%"
+		(property "Tollerance" "0.1%"
 			(at 233.172 113.284 90)
 			(effects
 				(font
@@ -13474,7 +12668,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C852071"
+		(property "JLCPCB #" "C7294193"
 			(at 231.14 111.76 0)
 			(effects
 				(font
@@ -13509,16 +12703,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "RE0402FRE07100KL"
-			(at 231.14 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ifrwd" ""
+		(property "MANUFACTURER #" "RP0402BRD07100KL"
 			(at 231.14 111.76 0)
 			(effects
 				(font
@@ -13528,24 +12713,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 231.14 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 231.14 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0015"
 			(at 231.14 111.76 0)
 			(effects
 				(font
@@ -13680,7 +12847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71C104KA88-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144737"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 220.98 125.73 0)
 			(effects
 				(font
@@ -13698,7 +12865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 217.17 124.968 0)
 			(effects
 				(font
@@ -13706,7 +12873,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C71629"
+		(property "JLCPCB #" "C77020"
 			(at 220.98 125.73 0)
 			(effects
 				(font
@@ -13724,7 +12891,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71C104KA88D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 220.98 125.73 0)
 			(effects
 				(font
@@ -13758,34 +12925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 220.98 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 220.98 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 220.98 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0016"
 			(at 220.98 125.73 0)
 			(effects
 				(font
@@ -13920,7 +13060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71C104KA88-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144737"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 80.01 160.02 0)
 			(effects
 				(font
@@ -13938,7 +13078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 84.074 159.004 0)
 			(effects
 				(font
@@ -13946,7 +13086,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C71629"
+		(property "JLCPCB #" "C77020"
 			(at 80.01 160.02 0)
 			(effects
 				(font
@@ -13964,7 +13104,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71C104KA88D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 80.01 160.02 0)
 			(effects
 				(font
@@ -13998,34 +13138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 80.01 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 80.01 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 80.01 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0016"
 			(at 80.01 160.02 0)
 			(effects
 				(font

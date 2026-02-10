@@ -21016,7 +21016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588918717191229440"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
 			(at 87.63 49.53 0)
 			(effects
 				(font
@@ -21087,34 +21087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 87.63 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 87.63 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 87.63 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 87.63 49.53 0)
 			(effects
 				(font
@@ -21309,34 +21282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 109.22 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 109.22 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 109.22 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "1.2495"
 			(at 109.22 64.77 0)
 			(effects
 				(font
@@ -21426,7 +21372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71C104KA88-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144737"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 129.54 63.5 0)
 			(effects
 				(font
@@ -21444,7 +21390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 133.604 62.484 0)
 			(effects
 				(font
@@ -21452,7 +21398,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C71629"
+		(property "JLCPCB #" "C77020"
 			(at 129.54 63.5 0)
 			(effects
 				(font
@@ -21470,7 +21416,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71C104KA88D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 129.54 63.5 0)
 			(effects
 				(font
@@ -21504,34 +21450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 129.54 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 129.54 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 129.54 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0016"
 			(at 129.54 63.5 0)
 			(effects
 				(font

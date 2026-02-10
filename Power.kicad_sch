@@ -4866,34 +4866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 132.08 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 132.08 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 132.08 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0446"
 			(at 132.08 135.89 0)
 			(effects
 				(font
@@ -5157,34 +5130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 232.41 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 232.41 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 232.41 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.1842"
 			(at 232.41 111.76 0)
 			(effects
 				(font
@@ -5329,7 +5275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71H104KE14-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144815"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -5407,34 +5353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 86.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 86.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 86.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0030"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -5581,34 +5500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 45.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 45.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 45.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0401"
 			(at 45.72 58.42 0)
 			(effects
 				(font
@@ -5822,34 +5714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 19.05 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 19.05 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 19.05 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.3533"
 			(at 19.05 58.42 0)
 			(effects
 				(font
@@ -5981,34 +5846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 210.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 210.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 210.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.8498"
 			(at 210.82 52.07 0)
 			(effects
 				(font
@@ -6194,7 +6032,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C2987934"
+		(property "JLCPCB #" "C86816"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -6203,7 +6041,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM32ER71E226KE15L"
+		(property "MANUFACTURER #" "GRM21BR61E226ME44L"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -6228,16 +6066,7 @@
 				)
 			)
 		)
-		(property "Tollerance" "10%"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ifrwd" ""
+		(property "Tollerance" "20%"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -6247,24 +6076,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.4635"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -6333,7 +6144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589947782741196800"
+		(property "Datasheet" ""
 			(at 204.47 60.96 0)
 			(effects
 				(font
@@ -6351,7 +6162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tollerance" "1%"
+		(property "Tollerance" "0.1%"
 			(at 202.946 58.928 90)
 			(effects
 				(font
@@ -6360,7 +6171,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C852071"
+		(property "JLCPCB #" "C7294193"
 			(at 204.47 60.96 90)
 			(effects
 				(font
@@ -6395,16 +6206,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "RE0402FRE07100KL"
-			(at 204.47 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ifrwd" ""
+		(property "MANUFACTURER #" "RP0402BRD07100KL"
 			(at 204.47 60.96 90)
 			(effects
 				(font
@@ -6414,24 +6216,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 204.47 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 204.47 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0015"
 			(at 204.47 60.96 90)
 			(effects
 				(font
@@ -6579,34 +6363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 48.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 48.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 48.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0060"
 			(at 48.26 73.66 0)
 			(effects
 				(font
@@ -6809,34 +6566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 179.07 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 179.07 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 179.07 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 179.07 123.19 0)
 			(effects
 				(font
@@ -7182,7 +6912,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C2987934"
+		(property "JLCPCB #" "C86816"
 			(at 151.13 129.54 0)
 			(effects
 				(font
@@ -7191,7 +6921,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM32ER71E226KE15L"
+		(property "MANUFACTURER #" "GRM21BR61E226ME44L"
 			(at 151.13 129.54 0)
 			(effects
 				(font
@@ -7216,16 +6946,7 @@
 				)
 			)
 		)
-		(property "Tollerance" "10%"
-			(at 151.13 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ifrwd" ""
+		(property "Tollerance" "20%"
 			(at 151.13 129.54 0)
 			(effects
 				(font
@@ -7235,24 +6956,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 151.13 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 151.13 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.4635"
 			(at 151.13 129.54 0)
 			(effects
 				(font
@@ -7340,7 +7043,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C160479"
+		(property "JLCPCB #" "C364551"
 			(at 271.78 74.93 90)
 			(effects
 				(font
@@ -7376,7 +7079,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "LTST-C281KGKT"
+		(property "MANUFACTURER #" "LTST-C281KGKT-5A"
 			(at 271.78 74.93 90)
 			(effects
 				(font
@@ -7386,24 +7089,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 271.78 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 271.78 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0459"
 			(at 271.78 74.93 90)
 			(effects
 				(font
@@ -7512,15 +7197,6 @@
 				(font
 					(size 0.8 0.8)
 				)
-			)
-		)
-		(property "Unit Price" "0.2616"
-			(at 123.19 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer #" ""
@@ -7728,34 +7404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0401"
 			(at 48.26 115.57 0)
 			(effects
 				(font
@@ -7824,7 +7473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71H104KE14-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144815"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 109.22 107.95 0)
 			(effects
 				(font
@@ -7902,34 +7551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 109.22 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 109.22 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 109.22 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0030"
 			(at 109.22 107.95 0)
 			(effects
 				(font
@@ -7998,7 +7620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM31CR71E106KA12-01CA-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813152643"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77082.pdf"
 			(at 138.43 72.39 0)
 			(effects
 				(font
@@ -8034,7 +7656,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C2987934"
+		(property "JLCPCB #" "C77082"
 			(at 138.43 72.39 0)
 			(effects
 				(font
@@ -8043,7 +7665,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM31CD71H106KE11L"
+		(property "MANUFACTURER #" "GRM21BR71H104KA01L"
 			(at 138.43 72.39 0)
 			(effects
 				(font
@@ -8077,34 +7699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 138.43 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 138.43 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 138.43 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.4635"
 			(at 138.43 72.39 0)
 			(effects
 				(font
@@ -8239,7 +7834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588903509806342144"
+		(property "Datasheet" ""
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -8257,7 +7852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tollerance" "1%"
+		(property "Tollerance" "0.1%"
 			(at 109.982 61.976 90)
 			(effects
 				(font
@@ -8266,7 +7861,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C185464"
+		(property "JLCPCB #" "C7294193"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -8301,16 +7896,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "RC0402FR-07158KL"
-			(at 107.95 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ifrwd" ""
+		(property "MANUFACTURER #" "RP0402BRD07100KL"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -8320,24 +7906,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 107.95 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 107.95 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -8484,34 +8052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 36.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 36.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 36.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0401"
 			(at 36.83 58.42 0)
 			(effects
 				(font
@@ -8681,7 +8222,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C2987934"
+		(property "JLCPCB #" "C86816"
 			(at 118.11 72.39 0)
 			(effects
 				(font
@@ -8690,7 +8231,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM32ER71E226KE15L"
+		(property "MANUFACTURER #" "GRM21BR61E226ME44L"
 			(at 118.11 72.39 0)
 			(effects
 				(font
@@ -8715,16 +8256,7 @@
 				)
 			)
 		)
-		(property "Tollerance" "10%"
-			(at 118.11 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ifrwd" ""
+		(property "Tollerance" "20%"
 			(at 118.11 72.39 0)
 			(effects
 				(font
@@ -8734,24 +8266,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 118.11 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 118.11 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.4635"
 			(at 118.11 72.39 0)
 			(effects
 				(font
@@ -8889,34 +8403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 271.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 271.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 271.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 271.78 60.96 0)
 			(effects
 				(font
@@ -9063,34 +8550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 27.94 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 27.94 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 27.94 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.3533"
 			(at 27.94 58.42 0)
 			(effects
 				(font
@@ -9500,34 +8960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 21.59 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 21.59 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 21.59 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.3533"
 			(at 21.59 115.57 0)
 			(effects
 				(font
@@ -9596,7 +9029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589936780553187328"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7294197.pdf"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -9623,7 +9056,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C850952"
+		(property "JLCPCB #" "C7294197"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -9658,16 +9091,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "AT0402BRD0730K1L"
-			(at 107.95 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ifrwd" ""
+		(property "MANUFACTURER #" "RP0402BRD0724K9L"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -9677,24 +9101,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 107.95 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 107.95 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0446"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -9832,34 +9238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 154.94 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 154.94 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 154.94 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 154.94 64.77 0)
 			(effects
 				(font
@@ -9994,7 +9373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM31CR71E106KA12-01CA-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813152643"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77082.pdf"
 			(at 161.29 129.54 0)
 			(effects
 				(font
@@ -10030,7 +9409,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C2987934"
+		(property "JLCPCB #" "C77082"
 			(at 161.29 129.54 0)
 			(effects
 				(font
@@ -10039,7 +9418,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM31CD71H106KE11L"
+		(property "MANUFACTURER #" "GRM21BR71H104KA01L"
 			(at 161.29 129.54 0)
 			(effects
 				(font
@@ -10073,34 +9452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 161.29 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 161.29 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 161.29 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.4635"
 			(at 161.29 129.54 0)
 			(effects
 				(font
@@ -10188,7 +9540,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C42456066"
+		(property "JLCPCB #" "C364551"
 			(at 271.78 130.81 90)
 			(effects
 				(font
@@ -10197,7 +9549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 271.78 130.81 90)
 			(effects
 				(font
@@ -10215,7 +9567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" "5mA"
+		(property "MANUFACTURER" "Lite-On"
 			(at 271.78 130.81 90)
 			(effects
 				(font
@@ -10224,16 +9576,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Orient"
-			(at 271.78 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER #" "ORH-G36G-B"
+		(property "MANUFACTURER #" "LTST-C281KGKT-5A"
 			(at 271.78 130.81 90)
 			(effects
 				(font
@@ -10243,24 +9586,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 271.78 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 271.78 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0125"
 			(at 271.78 130.81 90)
 			(effects
 				(font
@@ -10408,34 +9733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 219.71 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 219.71 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 219.71 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0060"
 			(at 219.71 121.92 0)
 			(effects
 				(font
@@ -10544,15 +9842,6 @@
 				(font
 					(size 0.8 0.8)
 				)
-			)
-		)
-		(property "Unit Price" "0.2616"
-			(at 99.06 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer #" ""
@@ -11068,34 +10357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 191.77 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 191.77 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 191.77 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0060"
 			(at 191.77 67.31 0)
 			(effects
 				(font
@@ -11243,34 +10505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 71.12 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 71.12 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 71.12 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0060"
 			(at 71.12 132.08 0)
 			(effects
 				(font
@@ -11484,34 +10719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 260.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 260.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 260.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0480"
 			(at 260.35 60.96 0)
 			(effects
 				(font
@@ -11580,7 +10788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589936780553187328"
+		(property "Datasheet" ""
 			(at 59.69 132.08 0)
 			(effects
 				(font
@@ -11607,7 +10815,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C850952"
+		(property "JLCPCB #" "C7294193"
 			(at 59.69 132.08 0)
 			(effects
 				(font
@@ -11642,16 +10850,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "AT0402BRD0730K1L"
-			(at 59.69 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ifrwd" ""
+		(property "MANUFACTURER #" "RP0402BRD07100KL"
 			(at 59.69 132.08 0)
 			(effects
 				(font
@@ -11661,24 +10860,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 59.69 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 59.69 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0446"
 			(at 59.69 132.08 0)
 			(effects
 				(font
@@ -11826,34 +11007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 260.35 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 260.35 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 260.35 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0060"
 			(at 260.35 120.65 0)
 			(effects
 				(font
@@ -11958,7 +11112,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C2987934"
+		(property "JLCPCB #" "C86816"
 			(at 140.97 129.54 0)
 			(effects
 				(font
@@ -11967,7 +11121,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM32ER71E226KE15L"
+		(property "MANUFACTURER #" "GRM21BR61E226ME44L"
 			(at 140.97 129.54 0)
 			(effects
 				(font
@@ -11992,16 +11146,7 @@
 				)
 			)
 		)
-		(property "Tollerance" "10%"
-			(at 140.97 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ifrwd" ""
+		(property "Tollerance" "20%"
 			(at 140.97 129.54 0)
 			(effects
 				(font
@@ -12011,24 +11156,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 140.97 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 140.97 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.4635"
 			(at 140.97 129.54 0)
 			(effects
 				(font
@@ -12233,34 +11360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 271.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 271.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 271.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 271.78 120.65 0)
 			(effects
 				(font
@@ -12548,7 +11648,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C42456066"
+		(property "JLCPCB #" "C364551"
 			(at 179.07 137.16 90)
 			(effects
 				(font
@@ -12557,7 +11657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 179.07 137.16 90)
 			(effects
 				(font
@@ -12575,7 +11675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" "5mA"
+		(property "MANUFACTURER" "Lite-On"
 			(at 179.07 137.16 90)
 			(effects
 				(font
@@ -12584,16 +11684,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Orient"
-			(at 179.07 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER #" "ORH-G36G-B"
+		(property "MANUFACTURER #" "LTST-C281KGKT-5A"
 			(at 179.07 137.16 90)
 			(effects
 				(font
@@ -12603,24 +11694,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 179.07 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 179.07 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0125"
 			(at 179.07 137.16 90)
 			(effects
 				(font
@@ -12835,34 +11908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 39.37 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 39.37 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 39.37 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0401"
 			(at 39.37 115.57 0)
 			(effects
 				(font
@@ -12998,7 +12044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588903509806342144"
+		(property "Datasheet" ""
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -13016,7 +12062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tollerance" "1%"
+		(property "Tollerance" "0.1%"
 			(at 134.112 120.396 90)
 			(effects
 				(font
@@ -13025,7 +12071,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C185464"
+		(property "JLCPCB #" "C7294193"
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -13060,16 +12106,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "RC0402FR-07158KL"
-			(at 132.08 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ifrwd" ""
+		(property "MANUFACTURER #" "RP0402BRD07100KL"
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -13079,24 +12116,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 132.08 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 132.08 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -13184,7 +12203,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C42456066"
+		(property "JLCPCB #" "C364551"
 			(at 154.94 78.74 90)
 			(effects
 				(font
@@ -13193,7 +12212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 154.94 78.74 90)
 			(effects
 				(font
@@ -13211,7 +12230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" "5mA"
+		(property "MANUFACTURER" "Lite-On"
 			(at 154.94 78.74 90)
 			(effects
 				(font
@@ -13220,16 +12239,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Orient"
-			(at 154.94 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER #" "ORH-G36G-B"
+		(property "MANUFACTURER #" "LTST-C281KGKT-5A"
 			(at 154.94 78.74 90)
 			(effects
 				(font
@@ -13239,24 +12249,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 154.94 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 154.94 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0125"
 			(at 154.94 78.74 90)
 			(effects
 				(font
@@ -13403,34 +12395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 30.48 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 30.48 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 30.48 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.3533"
 			(at 30.48 115.57 0)
 			(effects
 				(font

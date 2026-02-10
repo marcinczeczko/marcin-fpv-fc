@@ -2816,7 +2816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71C104KA88-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144737"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 166.37 142.24 0)
 			(effects
 				(font
@@ -2834,7 +2834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 170.18 141.224 0)
 			(effects
 				(font
@@ -2842,7 +2842,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C71629"
+		(property "JLCPCB #" "C77020"
 			(at 166.37 142.24 0)
 			(effects
 				(font
@@ -2860,7 +2860,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71C104KA88D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 166.37 142.24 0)
 			(effects
 				(font
@@ -2894,34 +2894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 166.37 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 166.37 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 166.37 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0016"
 			(at 166.37 142.24 0)
 			(effects
 				(font
@@ -3178,7 +3151,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C2858031"
+		(property "JLCPCB #" "C385032"
 			(at 185.42 142.24 0)
 			(effects
 				(font
@@ -3196,7 +3169,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R61E475ME15D"
+		(property "MANUFACTURER #" "GRM155R61E225KE11D"
 			(at 185.42 142.24 0)
 			(effects
 				(font
@@ -3221,16 +3194,7 @@
 				)
 			)
 		)
-		(property "Tollerance" "20%"
-			(at 185.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ifrwd" ""
+		(property "Tollerance" "10%"
 			(at 185.42 142.24 0)
 			(effects
 				(font
@@ -3240,24 +3204,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 185.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 185.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0363"
 			(at 185.42 142.24 0)
 			(effects
 				(font
@@ -3327,7 +3273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71E103KA01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144756"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -3345,7 +3291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 116.84 64.262 0)
 			(effects
 				(font
@@ -3353,7 +3299,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77013"
+		(property "JLCPCB #" "C77020"
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -3371,7 +3317,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71E103KA01D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -3405,34 +3351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 113.03 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 113.03 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 113.03 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0022"
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -3663,7 +3582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588918717191229440"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
 			(at 113.03 48.26 0)
 			(effects
 				(font
@@ -3734,34 +3653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 113.03 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 113.03 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 113.03 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 113.03 48.26 0)
 			(effects
 				(font
@@ -4095,7 +3987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C137841.pdf"
 			(at 104.14 110.49 0)
 			(effects
 				(font
@@ -4121,11 +4013,38 @@
 				)
 			)
 		)
-		(property "Tollerance" "1%"
+		(property "Tollerance" "5%"
 			(at 106.172 112.014 90)
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C137841"
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER #" "RC0402JR-0775RL"
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4246,7 +4165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588918717191229440"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106232.pdf"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -4273,7 +4192,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C60490"
+		(property "JLCPCB #" "C106232"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -4308,16 +4227,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "RC0402FR-0710KL"
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ifrwd" ""
+		(property "MANUFACTURER #" "RC0402FR-07100RL"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -4327,24 +4237,6 @@
 			)
 		)
 		(property "MOUSER #" ""
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0006"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -4611,7 +4503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C107335.pdf"
 			(at 104.14 135.89 0)
 			(effects
 				(font
@@ -4622,6 +4514,42 @@
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 104.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C107335"
+			(at 104.14 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 104.14 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER #" "MPZ1608S601ATA00"
+			(at 104.14 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 104.14 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,7 +4742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71E103KA01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144756"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 128.27 140.97 0)
 			(effects
 				(font
@@ -4832,7 +4760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 132.08 139.7 0)
 			(effects
 				(font
@@ -4840,7 +4768,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77013"
+		(property "JLCPCB #" "C77020"
 			(at 128.27 140.97 0)
 			(effects
 				(font
@@ -4858,7 +4786,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71E103KA01D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 128.27 140.97 0)
 			(effects
 				(font
@@ -4892,34 +4820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 128.27 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 128.27 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 128.27 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0022"
 			(at 128.27 140.97 0)
 			(effects
 				(font
@@ -5066,34 +4967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 116.84 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 116.84 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 116.84 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0060"
 			(at 116.84 140.97 0)
 			(effects
 				(font
@@ -5248,7 +5122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 107.95 93.472 0)
 			(effects
 				(font
@@ -5256,7 +5130,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77013"
+		(property "JLCPCB #" "C21012317"
 			(at 104.14 91.44 0)
 			(effects
 				(font
@@ -5274,7 +5148,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71E103KA01D"
+		(property "MANUFACTURER #" "GRM15XR71H561KA86J"
 			(at 104.14 91.44 0)
 			(effects
 				(font
@@ -5308,34 +5182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0022"
 			(at 104.14 91.44 0)
 			(effects
 				(font
@@ -5471,7 +5318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71C104KA88-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144737"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
 			(at 175.26 142.24 0)
 			(effects
 				(font
@@ -5489,7 +5336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 179.07 141.224 0)
 			(effects
 				(font
@@ -5497,7 +5344,7 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C71629"
+		(property "JLCPCB #" "C77020"
 			(at 175.26 142.24 0)
 			(effects
 				(font
@@ -5515,7 +5362,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R71C104KA88D"
+		(property "MANUFACTURER #" "GRM155R71H104KE14D"
 			(at 175.26 142.24 0)
 			(effects
 				(font
@@ -5549,34 +5396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ifrwd" ""
-			(at 175.26 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MOUSER #" ""
-			(at 175.26 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Freq" ""
-			(at 175.26 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.0016"
 			(at 175.26 142.24 0)
 			(effects
 				(font
