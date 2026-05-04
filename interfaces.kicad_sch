@@ -5605,15 +5605,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 111.76 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 111.76 50.8 0)
 			(effects
@@ -5680,7 +5671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PESD5V0X1BL,315"
+		(property "Value" "PESD5V0F1BRLDYL"
 			(at 109.982 162.052 90)
 			(effects
 				(font
@@ -5709,6 +5700,33 @@
 		)
 		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
 			(at 108.966 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C552549"
+			(at 115.57 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Nexperia"
+			(at 115.57 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER #" "PESD5V0F1BRLDYL"
+			(at 115.57 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,15 +5868,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 308.61 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 308.61 120.65 0)
 			(effects
@@ -5960,15 +5969,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 307.34 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 307.34 49.53 0)
 			(effects
@@ -6063,15 +6063,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 301.752 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 308.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,15 +6305,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C2845367"
-			(at 57.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER #" "HC-1.0-8PWT"
 			(at 57.15 55.88 0)
 			(effects
@@ -6369,6 +6351,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2845367"
 			(at 57.15 55.88 0)
 			(effects
 				(font
@@ -6466,15 +6457,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C530612"
-			(at 63.5 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "same sky"
 			(at 63.5 142.24 0)
 			(effects
@@ -6494,6 +6476,15 @@
 			)
 		)
 		(property "MOUSER #" "179-UJ20CHGSMT5P16TR"
+			(at 63.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C530612"
 			(at 63.5 142.24 0)
 			(effects
 				(font
@@ -6644,7 +6635,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PESD5V0X1BL,315"
+		(property "Value" "PESD5V0F1BRLDYL"
 			(at 88.138 162.306 90)
 			(effects
 				(font
@@ -6673,6 +6664,33 @@
 		)
 		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
 			(at 89.916 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C552549"
+			(at 96.52 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Nexperia"
+			(at 96.52 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER #" "PESD5V0F1BRLDYL"
+			(at 96.52 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,15 +6759,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 104.902 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 111.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,15 +6860,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 216.662 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 223.52 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,15 +7033,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 226.06 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 226.06 129.54 0)
 			(effects
@@ -7136,15 +7127,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 259.842 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 266.7 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,15 +7237,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C1973133"
-			(at 86.36 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Vishay"
 			(at 86.36 57.15 90)
 			(effects
@@ -7283,6 +7256,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 86.36 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1973133"
 			(at 86.36 57.15 90)
 			(effects
 				(font
@@ -7352,15 +7334,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 104.902 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 111.76 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7469,15 +7442,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 177.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 177.8 124.46 0)
 			(effects
@@ -7572,15 +7536,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 104.902 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 111.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7747,15 +7702,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 130.302 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 137.16 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,15 +7876,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 137.16 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 137.16 209.55 0)
 			(effects
@@ -8106,15 +8043,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 177.8 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 177.8 130.81 0)
 			(effects
@@ -8216,15 +8144,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 266.7 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 266.7 130.81 0)
 			(effects
@@ -8319,15 +8238,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 104.902 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 111.76 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,15 +8480,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 177.8 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 177.8 119.38 0)
 			(effects
@@ -8747,15 +8648,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 137.16 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 137.16 214.63 0)
 			(effects
@@ -8916,15 +8808,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 104.902 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 111.76 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9235,15 +9118,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 226.06 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 226.06 147.32 0)
 			(effects
@@ -9338,15 +9212,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 219.202 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 226.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9465,15 +9330,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C227396"
-			(at 119.38 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" "0402"
 			(at 119.38 138.43 90)
 			(effects
@@ -9519,6 +9375,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 119.38 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C227396"
 			(at 119.38 132.08 90)
 			(effects
 				(font
@@ -9662,6 +9527,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6671609"
+			(at 102.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Diodes"
+			(at 102.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER #" "SDM2A40CSP-7B"
+			(at 102.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "25d157c7-5dc3-400b-9ce2-159810f56d28")
 		)
@@ -9740,15 +9632,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C227396"
-			(at 119.38 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" "0402"
 			(at 119.38 128.524 90)
 			(effects
@@ -9794,6 +9677,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 119.38 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C227396"
 			(at 119.38 134.62 90)
 			(effects
 				(font
@@ -9878,15 +9770,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C60490"
-			(at 166.37 255.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" "0402"
 			(at 166.37 255.524 90)
 			(effects
@@ -9933,6 +9816,15 @@
 		)
 		(property "Manufacturer #" ""
 			(at 166.37 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 166.37 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10001,15 +9893,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 259.842 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 266.7 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,15 +10010,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C385032"
-			(at 87.63 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 87.63 153.67 0)
 			(effects
@@ -10145,7 +10019,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R61E225KE11D"
+		(property "MANUFACTURER #" "GRM155R61C475KE15D"
 			(at 87.63 153.67 0)
 			(effects
 				(font
@@ -10189,6 +10063,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 87.63 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C426094"
 			(at 87.63 153.67 0)
 			(effects
 				(font
@@ -10258,15 +10141,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 301.752 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 308.61 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,15 +10318,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 307.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 307.34 62.23 0)
 			(effects
@@ -10585,7 +10450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PESD5V0X1BL,315"
+		(property "Value" "PESD5V0F1BRLDYL"
 			(at 100.076 167.132 90)
 			(effects
 				(font
@@ -10614,6 +10479,33 @@
 		)
 		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
 			(at 98.806 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C552549"
+			(at 105.41 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Nexperia"
+			(at 105.41 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER #" "PESD5V0F1BRLDYL"
+			(at 105.41 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10682,15 +10574,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 170.942 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 177.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10866,15 +10749,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 177.8 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 177.8 147.32 0)
 			(effects
@@ -10969,15 +10843,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 301.752 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 308.61 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11146,15 +11011,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 216.662 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 223.52 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11331,15 +11187,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 223.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 223.52 68.58 0)
 			(effects
@@ -11500,15 +11347,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 216.662 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 223.52 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,15 +11520,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 138.43 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 138.43 246.38 0)
 			(effects
@@ -11744,7 +11573,7 @@
 		(at 267.97 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bd3d01bb-0fe6-401e-83f8-7e318c2892a7")
@@ -11996,15 +11825,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 138.43 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 138.43 236.22 0)
 			(effects
@@ -12100,15 +11920,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 216.662 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 223.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12284,15 +12095,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 223.52 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 223.52 81.28 0)
 			(effects
@@ -12388,15 +12190,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 300.482 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 307.34 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12573,15 +12366,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 138.43 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 138.43 241.3 0)
 			(effects
@@ -12684,15 +12468,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C160405 "
-			(at 184.15 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 184.15 45.72 0)
 			(effects
@@ -12739,6 +12514,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 184.15 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160405 "
 			(at 184.15 45.72 0)
 			(effects
 				(font
@@ -12899,6 +12683,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3290147"
+			(at 154.94 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Nexperia"
+			(at 154.94 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER #" "NX138AKMYL"
+			(at 154.94 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c54b2fa-f249-4e78-8fbe-eadcd2ebe3a9")
 		)
@@ -12963,15 +12774,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 301.752 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 308.61 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13147,15 +12949,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 226.06 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 226.06 142.24 0)
 			(effects
@@ -13257,15 +13050,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 111.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 111.76 71.12 0)
 			(effects
@@ -13360,15 +13144,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 104.902 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 111.76 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13544,15 +13319,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 177.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 177.8 142.24 0)
 			(effects
@@ -13721,15 +13487,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 308.61 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 308.61 127 0)
 			(effects
@@ -13824,15 +13581,6 @@
 		)
 		(property "Description" "Solder pad"
 			(at 259.842 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 266.7 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)

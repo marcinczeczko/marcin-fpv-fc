@@ -7251,15 +7251,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77013"
-			(at 77.47 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 77.47 184.15 0)
 			(effects
@@ -7313,6 +7304,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 77.47 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77013"
 			(at 77.47 184.15 0)
 			(effects
 				(font
@@ -7398,15 +7398,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C385032"
-			(at 125.73 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 125.73 185.42 0)
 			(effects
@@ -7460,6 +7451,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 125.73 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385032"
 			(at 125.73 185.42 0)
 			(effects
 				(font
@@ -7545,15 +7545,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C60490"
-			(at 231.14 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" "0402"
 			(at 228.346 128.524 0)
 			(effects
@@ -7599,6 +7590,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 231.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
 			(at 231.14 125.73 0)
 			(effects
 				(font
@@ -7671,15 +7671,6 @@
 		)
 		(property "Description" "Test Point"
 			(at 66.04 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 55.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,15 +7915,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C730120"
-			(at 91.44 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 91.44 151.13 0)
 			(effects
@@ -7979,6 +7961,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 91.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C730120"
 			(at 91.44 151.13 0)
 			(effects
 				(font
@@ -8281,15 +8272,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C1864480"
-			(at 81.28 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 81.28 60.96 0)
 			(effects
@@ -8344,6 +8326,15 @@
 		)
 		(property "Manufacturer #" ""
 			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1864480"
+			(at 81.28 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,15 +8419,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77020"
-			(at 68.58 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 68.58 160.02 0)
 			(effects
@@ -8490,6 +8472,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 68.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 68.58 160.02 0)
 			(effects
 				(font
@@ -8562,15 +8553,6 @@
 		)
 		(property "Description" "Test Point"
 			(at 67.31 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 57.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8687,15 +8669,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C105870"
-			(at 218.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" "0402"
 			(at 215.9 56.388 0)
 			(effects
@@ -8741,6 +8714,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105870"
 			(at 218.44 53.34 0)
 			(effects
 				(font
@@ -8819,15 +8801,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C730120"
-			(at 111.76 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" ""
 			(at 111.76 53.34 0)
 			(effects
@@ -8874,6 +8847,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 111.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C730120"
 			(at 111.76 53.34 0)
 			(effects
 				(font
@@ -9183,15 +9165,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77020"
-			(at 35.56 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 35.56 160.02 0)
 			(effects
@@ -9245,6 +9218,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 35.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 35.56 160.02 0)
 			(effects
 				(font
@@ -9329,15 +9311,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C60490"
-			(at 193.04 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" "0402"
 			(at 196.342 55.118 0)
 			(effects
@@ -9383,6 +9356,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 193.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
 			(at 193.04 52.07 0)
 			(effects
 				(font
@@ -9534,15 +9516,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C60490"
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" "0402"
 			(at 56.896 83.058 0)
 			(effects
@@ -9588,6 +9561,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 59.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
 			(at 59.69 80.01 0)
 			(effects
 				(font
@@ -9673,15 +9655,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77020"
-			(at 57.15 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 57.15 160.02 0)
 			(effects
@@ -9735,6 +9708,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 57.15 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 57.15 160.02 0)
 			(effects
 				(font
@@ -9819,15 +9801,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C105870"
-			(at 218.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" "0402"
 			(at 220.98 85.598 0)
 			(effects
@@ -9873,6 +9846,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 218.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105870"
 			(at 218.44 82.55 0)
 			(effects
 				(font
@@ -10159,15 +10141,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77020"
-			(at 59.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 59.69 92.71 0)
 			(effects
@@ -10221,6 +10194,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 59.69 92.71 0)
 			(effects
 				(font
@@ -10291,15 +10273,6 @@
 		)
 		(property "Description" "Test Point"
 			(at 184.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 194.31 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10618,15 +10591,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77020"
-			(at 114.3 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 114.3 185.42 0)
 			(effects
@@ -10680,6 +10644,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 114.3 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 114.3 185.42 0)
 			(effects
 				(font
@@ -10750,15 +10723,6 @@
 		)
 		(property "Description" "Test Point"
 			(at 184.15 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 194.31 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,15 +10832,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C364550"
-			(at 186.69 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" "0402"
 			(at 186.69 31.75 90)
 			(effects
@@ -10924,6 +10879,15 @@
 		)
 		(property "Manufacturer #" ""
 			(at 186.69 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C364550"
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11076,15 +11040,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77009 "
-			(at 64.77 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 64.77 184.15 0)
 			(effects
@@ -11138,6 +11093,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 64.77 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77009 "
 			(at 64.77 184.15 0)
 			(effects
 				(font
@@ -11223,15 +11187,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77020"
-			(at 195.58 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 195.58 153.67 0)
 			(effects
@@ -11285,6 +11240,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 195.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 195.58 153.67 0)
 			(effects
 				(font
@@ -11505,15 +11469,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C385032"
-			(at 24.13 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 24.13 160.02 0)
 			(effects
@@ -11523,7 +11478,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER #" "GRM155R61E225KE11D"
+		(property "MANUFACTURER #" "GRM155R61C475KE15D"
 			(at 24.13 160.02 0)
 			(effects
 				(font
@@ -11567,6 +11522,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 24.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C426094"
 			(at 24.13 160.02 0)
 			(effects
 				(font
@@ -11652,15 +11616,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C1864480"
-			(at 81.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 81.28 43.18 0)
 			(effects
@@ -11715,6 +11670,15 @@
 		)
 		(property "Manufacturer #" ""
 			(at 81.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1864480"
+			(at 81.28 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11865,15 +11829,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C106232"
-			(at 175.26 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" "0402"
 			(at 175.26 31.75 90)
 			(effects
@@ -11920,6 +11875,15 @@
 		)
 		(property "Manufacturer #" ""
 			(at 175.26 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106232"
+			(at 175.26 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11995,15 +11959,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C231329"
-			(at 201.93 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER #" "B3U-1000P"
 			(at 201.93 46.99 90)
 			(effects
@@ -12051,6 +12006,15 @@
 		)
 		(property "Manufacturer #" ""
 			(at 201.93 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C231329"
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12135,15 +12099,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77020"
-			(at 46.99 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 46.99 160.02 0)
 			(effects
@@ -12197,6 +12152,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 46.99 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 46.99 160.02 0)
 			(effects
 				(font
@@ -12405,15 +12369,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" ""
-			(at 76.2 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Abracon"
 			(at 76.2 52.07 0)
 			(effects
@@ -12450,6 +12405,15 @@
 			)
 		)
 		(property "Mouser #" "815-ABM38000B4YT"
+			(at 76.2 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5564812"
 			(at 76.2 52.07 90)
 			(effects
 				(font
@@ -12668,15 +12632,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C7294193"
-			(at 231.14 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package" "0402"
 			(at 228.092 114.808 0)
 			(effects
@@ -12722,6 +12677,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 231.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7294193"
 			(at 231.14 111.76 0)
 			(effects
 				(font
@@ -12873,15 +12837,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77020"
-			(at 220.98 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 220.98 125.73 0)
 			(effects
@@ -12935,6 +12890,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 220.98 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 220.98 125.73 0)
 			(effects
 				(font
@@ -13086,15 +13050,6 @@
 				)
 			)
 		)
-		(property "JLCPCB #" "C77020"
-			(at 80.01 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Murata"
 			(at 80.01 160.02 0)
 			(effects
@@ -13148,6 +13103,15 @@
 			)
 		)
 		(property "Manufacturer #" ""
+			(at 80.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 80.01 160.02 0)
 			(effects
 				(font

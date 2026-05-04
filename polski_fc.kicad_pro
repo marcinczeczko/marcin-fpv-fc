@@ -697,9 +697,21 @@
           "show": false
         },
         {
+          "group_by": false,
+          "label": "MANUFACTURER #",
+          "name": "MANUFACTURER #",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER #",
+          "name": "MOUSER #",
+          "show": true
+        },
+        {
           "group_by": true,
-          "label": "Reference",
-          "name": "Reference",
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
           "show": true
         },
         {
@@ -710,14 +722,14 @@
         },
         {
           "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         },
         {
@@ -728,20 +740,32 @@
         },
         {
           "group_by": true,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": true,
           "label": "Package",
           "name": "Package",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Temp Coef",
           "name": "Temp Coef",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
           "show": false
         },
         {
@@ -757,40 +781,16 @@
           "show": false
         },
         {
-          "group_by": true,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "Tollerance",
           "name": "Tollerance",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER #",
-          "name": "MANUFACTURER #",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB #",
-          "name": "JLCPCB #",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MOUSER #",
-          "name": "MOUSER #",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Manufacturer #",
           "name": "Manufacturer #",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -804,7 +804,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
