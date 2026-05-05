@@ -7,8 +7,8 @@ on:
     branches: [ main, dev ]
   workflow_dispatch:
     inputs:
-      variant:
-        description: 'KiBot Variant to run'
+      target:
+        description: 'KiBot Target Group to run'
         required: true
         default: 'DRAFT'
         type: choice
@@ -27,35 +27,34 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Determine Variant
-        id: var
+      - name: Determine Target
+        id: tgt
         run: |
           if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-            echo "variant=${{ github.event.inputs.variant }}" >> $GITHUB_OUTPUT
+            echo "target=${{ github.event.inputs.target }}" >> $GITHUB_OUTPUT
           elif [ "${{ github.ref }}" == "refs/heads/main" ]; then
-            echo "variant=RELEASED" >> $GITHUB_OUTPUT
+            echo "target=RELEASED" >> $GITHUB_OUTPUT
           else
-            echo "variant=DRAFT" >> $GITHUB_OUTPUT
+            echo "target=DRAFT" >> $GITHUB_OUTPUT
           fi
 
-      - name: Generate Outputs (${{ steps.var.outputs.variant }})
+      - name: Generate Outputs (${{ steps.tgt.outputs.target }})
         uses: INTI-CMNB/KiBot@v2_k9
         with:
           config: polski_fc.kibot.yaml
-          targets: ${{ steps.var.outputs.variant }}
-          variant: ${{ steps.var.outputs.variant }}
+          targets: ${{ steps.tgt.outputs.target }}
 
       - name: Commit Updated Documentation
         if: github.event_name == 'push'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "docs(automation): update ${{ steps.var.outputs.variant }} outputs [skip ci]"
+          commit_message: "docs(automation): update ${{ steps.tgt.outputs.target }} outputs [skip ci]"
           file_pattern: 'Schematic/* Manufacturing/* 3D/*'
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: polski_fc-${{ steps.var.outputs.variant }}-artifacts
+          name: polski_fc-${{ steps.tgt.outputs.target }}-artifacts
           path: |
             Schematic/
             Manufacturing/
