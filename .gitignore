@@ -17,3 +17,6 @@ Manufacturing/
 Testing/
 3D/
 
+*.kicad_prl
+fp-info-cache
+
