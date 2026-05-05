@@ -1,0 +1,29 @@
+kibot:
+  version: 1
+
+outputs:
+  - name: 'schematic_pdf'
+    comment: 'PDF of the schematic'
+    type: 'pdf_sch_print'
+    dir: 'Schematic'
+    run_by_default: true
+    options:
+      output: '%f-schematic.%x'
+
+  - name: 'ibom'
+    comment: 'Interactive HTML BOM'
+    type: 'ibom'
+    dir: 'Schematic'
+    run_by_default: false
+    options:
+      output: '%f-ibom.%x'
+
+  - name: 'step_3d'
+    comment: '3D STEP model'
+    type: 'export_3d'
+    dir: '3D'
+    run_by_default: false
+    options:
+      output: '%f.%x'
+      format: 'step'
+      origin: 'grid'

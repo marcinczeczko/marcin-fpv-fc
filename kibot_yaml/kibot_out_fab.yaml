@@ -1,0 +1,100 @@
+kibot:
+  version: 1
+
+outputs:
+  - name: 'JLCPCB_gerbers'
+    comment: 'Gerbers in Protel format (JLCPCB)'
+    type: 'gerber'
+    dir: 'Manufacturing/Gerber'
+    run_by_default: false
+    options:
+      # Settings for JLCPCB
+      use_protel_extensions: true
+      use_gerber_x2_attributes: false
+      use_gerber_net_attributes: false
+      disable_aperture_macros: true
+      line_width: 0.1
+    layers:
+      - 'F.Cu'
+      - 'In1.Cu'
+      - 'In2.Cu'
+      - 'In3.Cu'
+      - 'In4.Cu'
+      - 'In5.Cu'
+      - 'In6.Cu'
+      - 'B.Cu'
+      - 'F.Mask'
+      - 'B.Mask'
+      - 'F.SilkS'
+      - 'B.SilkS'
+      - 'F.Paste'
+      - 'B.Paste'
+      - 'Edge.Cuts'
+
+  - name: 'JLCPCB_drill'
+    comment: 'Excellon drill files'
+    type: 'excellon'
+    dir: 'Manufacturing/Drill'
+    run_by_default: false
+    options:
+      pth_and_npth_single_file: false
+      metric_units: true
+      minimal_header: true
+      mirror_y_axis: false
+
+  - name: 'JLCPCB_bom'
+    comment: 'BOM for JLCPCB'
+    type: 'bom'
+    dir: 'Manufacturing'
+    run_by_default: false
+    options:
+      output: '%f-BOM-JLCPCB.csv'
+      format: 'CSV'
+      columns:
+        - field: 'Reference'
+          name: 'Designator'
+        - field: 'Value'
+          name: 'Comment'
+        - field: 'Footprint'
+          name: 'Footprint'
+        - field: 'LCSC'
+          name: 'LCSC Part #'
+      csv:
+        hide_header: false
+        hide_pcb_info: true
+
+  - name: 'JLCPCB_position'
+    comment: 'Pick and Place for JLCPCB'
+    type: 'position'
+    dir: 'Manufacturing'
+    run_by_default: false
+    options:
+      output: '%f-CPL-JLCPCB.csv'
+      format: 'CSV'
+      units: 'millimeters'
+      separate_files_for_front_and_back: false
+      only_smd: true
+      columns:
+        - id: 'Ref'
+          name: 'Designator'
+        - id: 'PosX'
+          name: 'Mid X'
+        - id: 'PosY'
+          name: 'Mid Y'
+        - id: 'Side'
+          name: 'Layer'
+        - id: 'Rot'
+          name: 'Rotation'
+
+  - name: 'JLCPCB_zip'
+    comment: 'ZIP archive for JLCPCB'
+    type: 'compress'
+    dir: 'Manufacturing'
+    run_by_default: false
+    options:
+      format: 'ZIP'
+      files:
+        - from_output: 'JLCPCB_gerbers'
+          dest: '/'
+        - from_output: 'JLCPCB_drill'
+          dest: '/'

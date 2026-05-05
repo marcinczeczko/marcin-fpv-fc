@@ -1,0 +1,22 @@
+kibot:
+  version: 1
+
+global:
+  out_dir: "."
+
+import:
+  - kibot_pre_set_text_variables.yaml
+  - kibot_pre_flights.yaml
+  - kibot_out_docs.yaml
+  - kibot_out_fab.yaml
+
+preflight:
+  set_text_variables:
+    - name: 'STATUS'
+      value: '${VARIANT|DRAFT}'
+    - name: 'TITLE'
+      value: 'Flight Controller'
+    - name: 'COMPANY'
+      value: 'Polski FC'
+    - name: 'REVISION'
+      value: 'v1.0'

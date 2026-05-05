@@ -1,0 +1,62 @@
+name: Hardware CI/CD (KiBot)
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main, dev ]
+  workflow_dispatch:
+    inputs:
+      variant:
+        description: 'KiBot Variant to run'
+        required: true
+        default: 'DRAFT'
+        type: choice
+        options:
+          - DRAFT
+          - PRELIMINARY
+          - CHECKED
+          - RELEASED
+
+jobs:
+  kibot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Determine Variant
+        id: var
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "variant=${{ github.event.inputs.variant }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.ref }}" == "refs/heads/main" ]; then
+            echo "variant=RELEASED" >> $GITHUB_OUTPUT
+          else
+            echo "variant=DRAFT" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate Outputs (${{ steps.var.outputs.variant }})
+        uses: INTI-CMNB/KiBot@v2_k9
+        with:
+          config: polski_fc.kibot.yaml
+          targets: ${{ steps.var.outputs.variant }}
+          variant: ${{ steps.var.outputs.variant }}
+
+      - name: Commit Updated Documentation
+        if: github.event_name == 'push'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs(automation): update ${{ steps.var.outputs.variant }} outputs [skip ci]"
+          file_pattern: 'Schematic/* Manufacturing/* 3D/*'
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: polski_fc-${{ steps.var.outputs.variant }}-artifacts
+          path: |
+            Schematic/
+            Manufacturing/
+            3D/

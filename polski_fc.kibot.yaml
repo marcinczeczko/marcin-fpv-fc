@@ -1,0 +1,38 @@
+kibot:
+  version: 1
+
+import:
+  - kibot_yaml/kibot_main.yaml
+
+groups:
+  - name: DRAFT
+    comment: 'Draft version, only schematic'
+    outputs:
+      - schematic_pdf
+  - name: PRELIMINARY
+    comment: 'Preliminary version, adds iBOM'
+    outputs:
+      - schematic_pdf
+      - ibom
+  - name: CHECKED
+    comment: 'Checked version, all outputs'
+    outputs:
+      - schematic_pdf
+      - ibom
+      - step_3d
+      - JLCPCB_gerbers
+      - JLCPCB_drill
+      - JLCPCB_bom
+      - JLCPCB_position
+      - JLCPCB_zip
+  - name: RELEASED
+    comment: 'Released version, all outputs'
+    outputs:
+      - schematic_pdf
+      - ibom
+      - step_3d
+      - JLCPCB_gerbers
+      - JLCPCB_drill
+      - JLCPCB_bom
+      - JLCPCB_position
+      - JLCPCB_zip

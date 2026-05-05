@@ -1,0 +1,31 @@
+kibot:
+  version: 1
+
+preflight:
+  erc:
+    filters:
+      - filter_msg: 'Ignore missing symbol libraries'
+        error: 'lib_symbol_issues'
+        filter: '.*'
+      - filter_msg: 'Ignore missing footprint libraries'
+        error: 'footprint_link_issues'
+        filter: '.*'
+      - filter_msg: 'Ignore pin to pin warnings'
+        error: 'pin_to_pin'
+        filter: '.*'
+  drc:
+    filters:
+      - filter_msg: 'Ignore missing footprint libraries DRC'
+        error: 'lib_footprint_issues'
+        filter: '.*'
+      - filter_msg: 'Ignore footprint symbol mismatch'
+        error: 'footprint_symbol_mismatch'
+        filter: '.*'
+      - filter_msg: 'Ignore footprint mismatch'
+        error: 'lib_footprint_mismatch'
+        filter: '.*'
+      - filter_msg: 'Ignore Courtyard overlap'
+        error: 'courtyards_overlap'
+        filter: '.*'
+  check_zone_fills: true
+  update_xml: false

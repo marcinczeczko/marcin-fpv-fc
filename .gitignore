@@ -9,3 +9,11 @@
 *.kicad_sch-bak
 fp-info-cache
 *.log
+.worktrees/
+
+# KiBot Outputs
+Schematic/
+Manufacturing/
+Testing/
+3D/
+

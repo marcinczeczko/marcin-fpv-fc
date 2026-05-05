@@ -1,0 +1,8 @@
+# Metadata for KiBot preflight
+variables:
+  PROJECT_NAME: "Polski FC"
+  TITLE: "Flight Controller"
+  REVISION: "v1.0"
+  COMPANY: "Polski FC"
+  GIT_URL: "https://github.com/polski-fc/polski_fc"
+  DATE: "2026-05-04"
