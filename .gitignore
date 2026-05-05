@@ -1,22 +1,42 @@
+# Operating System Files
 .DS_Store
+Thumbs.db
 
-*-backups
-\#auto_saved_files#
-*.xml
-*.lib
-*.lck
+# KiCad Temporary and Backup Files
+*-backups/
+*-bak
 *.bak
+*.kicad_pcb-bak
 *.kicad_sch-bak
+*~
+_autosave-*
+\#auto_saved_files#
+
+# KiCad Local Settings and Caches
+*.kicad_prl
 fp-info-cache
+fp-lib-table.local
+sym-lib-table.local
+
+# KiCad ERC/DRC Reports and Netlists
+*.erc
+*.drc
+*.net
+*.xml
 *.log
+
+# Project-Specific Local Libraries (if any)
+_kicad_pro_abs_paths
+
+# Tool-Specific Caches and Temporary Files
+.lck
 .worktrees/
 
-# KiBot Outputs
+# KiBot Outputs (Managed by CI/CD)
+# These are generated and optionally committed by the workflow, 
+# but generally ignored locally to keep the workspace clean.
 Schematic/
 Manufacturing/
 Testing/
 3D/
-
-*.kicad_prl
-fp-info-cache
-
+output/
